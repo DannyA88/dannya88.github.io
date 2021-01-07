@@ -7,6 +7,7 @@ body{
   background: #000;
   font-family: Helvetica;
   color: #fff;
+  text-align: center;
 }
 p{
   font-size: 22px;
@@ -43,11 +44,14 @@ p{
   opacity: 0.9;
 }
 .banner{
+  display: flex;
   background-image: url("/images/img-mission-background");
   background-size: cover;
+  background-position: center;
   height: 700px;
 }
 .banner-info{
+  flex-grow: 1;
   background: #000;
   margin: auto 0;
 }
