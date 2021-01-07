@@ -45,7 +45,7 @@ p{
 }
 .banner{
   display: flex;
-  background-image: url("/images/img-mission-background");
+  background-image: url("/images/img-mission-background.jpg");
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -58,7 +58,7 @@ p{
 .container{
   display: flex;
   flex-wrap: wrap;
-  just0fy-content: space-around;
+  justify-content: space-between;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -68,4 +68,12 @@ p{
 .cat-image{
   width: 300px;
   margin-bottom: 10px;
+}
+.locations{
+  height: 500px;
+  display: flex;
+  background-image: url("/images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
 }
