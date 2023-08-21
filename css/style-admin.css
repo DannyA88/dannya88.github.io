@@ -3,4 +3,7 @@ body {
 }
 body #wpcontent {
   color: #fffcf9;
+}
+body #wpcontent h2 {
+  color: #111;
 }/*# sourceMappingURL=style-admin.css.map */
