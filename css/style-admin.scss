@@ -4,8 +4,13 @@ $near-black: #222;
 $near-black-lighter: #2c2c2c;
 $light-black: #333;
 $light-black-lighter: #3c3c3c;
+$gold-light: #fffcf9;
 
 
 body{
     background: $pitch-black;
+
+    #wpcontent{
+        color: $gold-light;
+    }
 }

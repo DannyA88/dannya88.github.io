@@ -1,3 +1,6 @@
 body {
   background: #000;
+}
+body #wpcontent {
+  color: #fffcf9;
 }/*# sourceMappingURL=style-admin.css.map */
