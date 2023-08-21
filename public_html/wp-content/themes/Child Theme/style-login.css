@@ -1,0 +1,109 @@
+body{
+        background: #222222;
+        background-image: url(https://www.certodesign.co.uk/wp-content/uploads/2021/01/certo-circle-left.png);
+    background-position: left;
+    background-blend-mode: overlay;
+        font-family: Poppins, san-serif;
+}
+
+body.login {}
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {}
+
+#login h1 a, .login h1 a {
+    background-image: url(https://certodesign.co.uk/wp-content/uploads/2021/01/certo-logo-text.png);
+    height:60px;
+    width:250px;
+    background-size: 250px 60px;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+
+body.login div#login form#loginform {
+    border: 1px solid #c9aa66;
+    text-align: center;
+}
+body.login div#login form#loginform p {
+    text-align: center;
+}
+body.login div#login form#loginform p label {
+    text-align: center;
+}
+body.login div#login form#loginform input {
+    font-family: "Playfair Display";
+    font-style: italic;
+    border: 1px solid #222222;
+    text-align: center;
+    box-shadow: none;
+}
+body.login div#login form#loginform input:focus,
+body.login div#login form#loginform input:visited{
+    background: #222222;
+    border-color: #c9aa66;
+    color: #fffcf9;
+    -webkit-appearance: none;
+}
+body.login div#login form#loginform input:-webkit-autofill,
+body.login div#login form#loginform input:-webkit-autofill:hover, 
+body.login div#login form#loginform input:-webkit-autofill:focus,
+body.login div#login form#loginform input:-webkit-autofill-strong-password,
+body.login div#login form#loginform input:-webkit-autofill-strong-password-viewable{
+    background-color: #222222 !important;
+}
+body.login div#login form#loginform input::-webkit-credentials-auto-fill-button{
+    background: #c9aa66;
+}
+body.login div#login form#loginform input::-webkit-credentials-auto-fill-button:hover{
+    background-color: #fffcf9;
+}
+body.login .button.wp-hide-pw .dashicons{
+    color: #c9aa66;
+}
+body.login .button.wp-hide-pw .dashicons:hover{
+    color: #fffcf9;
+}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {
+    width: 100%;
+    margin-bottom: 10px;
+}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    background: #c9aa66;
+    border-color: #c9aa66;
+    font-style: italic;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover {
+    background: #222222;
+    border-color: #222222;
+}
+body.login div#login p#nav {
+    text-align: center;
+}
+body.login div#login p#nav a {
+    color: #fffcf9;
+}
+body.login div#login p#nav a:hover {
+    color: #c9aa66;
+}
+body.login div#login p#backtoblog {
+    text-align: center;
+}
+body.login div#login p#backtoblog a {
+    color: #fffcf9;
+}
+body.login div#login p#backtoblog a:hover {
+    color: #c9aa66;
+}
+
+
+#wp-auth-check-wrap #wp-auth-check{
+	background-color: #222;
+}
